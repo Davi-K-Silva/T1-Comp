@@ -59,6 +59,7 @@ MethodDeclaration 	::= 	"public" Type Identifier "(" ( Type Identifier ( "," Typ
 Type 	::= 	"int" (RestoType)?
                 |  "boolean"
                 |  Identifier
+Statement ::= cmdo
 RestoType := "[" "]"
 Identifier 	::= 	<IDENTIFIER>
 ***/ 
