@@ -14,8 +14,9 @@ MethodDeclaration 	::= 	"public" Type Identifier "(" ( Type Identifier ( "," Typ
 Type 	::= 	"int" (RestoType)?
                 |  "boolean"
                 |  Identifier
-RestoType := "[" "]"
-Identifier 	::= 	<IDENTIFIER>
+Statement ::= <cmdo>
+RestoType ::= "[" "]"
+Identifier 	::= <IDENTIFIER>
 ```
 
 **OBS**: no lugar do Expression foi colocado um Identifier em ( ... "return" Identifier ";" ...)
